@@ -1,0 +1,136 @@
+body,html{
+	width: 100%;
+}
+.index{
+	width: 100%;
+}
+.index .img{
+	width:150px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.index .img img{
+	width:100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.change_input{
+	width: 70%;
+	margin: 0 auto;
+}
+.change_input .input_top{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.change_input .input_top div{
+	cursor: pointer;
+}
+.change_input .input_top div span.quan{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	position: relative;
+}
+.change_input .input_top div span.quan .quan_white{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 5px solid deepskyblue;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+}
+.change_input .input_top div.top_left span.quan .quan_white{
+	display: block;
+}
+.change_input .input_top div span.change_title{
+	display: block;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.change_input .input_top div span.curr .quan_white{
+	display: block;
+}
+.change_input  .input_bot{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.change_input  .input_bot div{
+	width: 100%;
+	height:50px;
+}
+.change_input .input_bot div input{
+	width: 96%;
+	border:1px solid #ccc;
+	line-height: 50px;
+	padding-left: 20px;
+	color: #999;
+	border-radius: 10px;
+
+}
+.change_input  .input_bot div.people_id{
+	display: none;
+}
+.sure{
+	width: 60%;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: deepskyblue;
+	margin-top: 50px;
+	color: #fff;
+	border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+	body{
+		/* background-color: red; */
+	}
+	.index .img{
+		width:5rem;
+		height: 5rem;
+		margin: 0 auto;
+		padding-top: 3rem;
+	}
+	.index .img img{
+		width:100%;
+		height: 100%;
+		border-radius: 50%;
+	}
+	.title{
+		text-align: center;
+		font-size: 1rem;
+		margin-top: 1rem;
+	}
+	.select{
+		width: 100%;
+	}
+	.select select{
+		width: 70%;
+		height: 2rem;
+		margin: 0 auto;
+		display: block;
+		font-size: 0.8rem;
+		text-align: center;
+	}
+	.select select option{
+		text-align: center;
+	}
+	.change_input .input_top,.change_input .input_bot,.sure{
+		width: 100%;
+	}
+}
